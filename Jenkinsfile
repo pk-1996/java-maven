@@ -23,7 +23,7 @@ pipeline {
         stage("building image"){
             steps{
                 script{
-                    gv.buildImage
+                    gv.buildImage()
                 }
             }
         }
